@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/portno"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="142dp"
+        android:gravity="top"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="20dp"
+        android:text="IP: "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="109dp"
+        android:text="PORT: "
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ip_addr"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="52dp"
+        android:gravity="top"
+        android:textSize="18dp" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

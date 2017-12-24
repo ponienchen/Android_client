@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/underwaterdroid"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/rcv_msg"
+        android:layout_width="248dp"
+        android:layout_height="66dp"
+        android:layout_x="1dp"
+        android:layout_y="13dp"
+        android:gravity="top"
+        android:scrollbars="vertical" 
+        />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="273dp"
+        android:text="down" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="195dp"
+        android:text="left" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="110dp"
+        android:text="up" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="195dp"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="195dp"
+        android:text="right" />
+
+    <Button
+        android:id="@+id/demo"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="355dp"
+        android:text="demo" />
+
+</AbsoluteLayout>
